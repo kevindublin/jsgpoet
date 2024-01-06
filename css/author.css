@@ -1,0 +1,14 @@
+.site-text {
+	text-align: justify;
+}
+
+.styled-header {
+	color: white;
+	background: black;
+	padding: 5px 10px 5px 10px;
+}
+
+.navbar-fixed-top {
+	background: black;
+
+}
