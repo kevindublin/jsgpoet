@@ -216,8 +216,9 @@ form {
 }
 
 [type="submit"]:hover { 
-	background:#f9ced5;
-	color:black; 
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color:#f9ced5; 
 	}
 	
 
