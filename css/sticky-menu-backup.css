@@ -106,7 +106,7 @@ form {
     height: 100%;
     padding-top: 150px;
     text-align: justify;
-    background: #ffffff;
+    background: #f9ced5;
     background-image: url(./images/book-background.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -126,7 +126,7 @@ form {
     height: 100%;
     padding-top: 50px;
     text-align: left;
-    background: #ffffff;
+    background: #f9ced5;
     padding-bottom: 100px;
 }
 .contact-section {
@@ -144,7 +144,7 @@ form {
     height: 100%;
     padding-top: 50px;
     text-align: center;
-    background: #ffffff;
+    background: #f9ced5;
     margin: 0;
 }
 
@@ -153,7 +153,7 @@ form {
     flex-basis: content;
     height: 100%;
     text-align: center;
-    background: #ffffff;
+    background: #f9ced5;
     padding-bottom: 100px;
     margin: 0;
 }
@@ -163,8 +163,8 @@ form {
 	background-color: #000000;
 }
 .navbar-default {
-    background-color: #f9ced5;
-    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    border-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > li > a {
     color: #000;
@@ -218,14 +218,10 @@ form {
 [type="submit"]:hover { 
 	padding-top: 15px;
 	padding-bottom: 15px;
-	color:#ffffff; 
+	color:#f9ced5; 
 	}
 	
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-	color: #000;
-	background-color: #fff;
-}
 
-.navbar-default .navbar-brand {
-    color: #000;
-}
+
+
+
