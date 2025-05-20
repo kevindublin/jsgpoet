@@ -20,7 +20,8 @@
         }
         /* Ensure sufficient text contrast for justified text if kept - this is a general note, specific color checks needed */
         .site-text-justified { /* Changed class name to be more specific if you want to control justification styling deliberately */
-            text-align: justify; /* WCAG 1.4.8 (AAA): Justified text can be a barrier for some users with cognitive disabilities. Consider left-aligning. */
+            text-align: justify;
+            font-size: 1.5em; /* WCAG 1.4.8 (AAA): Justified text can be a barrier for some users with cognitive disabilities. Consider left-aligning. */
         }
         /* For the back-to-top button specifically, ensure focus is as visible as hover */
         #back2Top:focus {
