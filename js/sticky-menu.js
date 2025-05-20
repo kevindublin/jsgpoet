@@ -32,3 +32,16 @@ $(function() {						//Page scrolling feature with kQuery Easing plugin
         event.preventDefault();
     });
 });
+
+// When scrollspy updates the active link
+$(window).on('activate.bs.scrollspy', function () {
+    $('.navbar-nav > li > a').attr('aria-current', 'false'); // Reset all
+    $('.navbar-nav > li.active > a').attr('aria-current', 'page'); // Set current
+});
+// Initial set on page load if a section is targeted by hash
+if(window.location.hash) {
+     $('.navbar-nav > li > a[href="' + window.location.hash + '"]').attr('aria-current', 'page');
+} else {
+    // Optionally set the first relevant link as current if no hash, or #page-top
+     $('.navbar-nav > li > a[href="#about"]').first().attr('aria-current', 'page'); // Example for #about
+}
