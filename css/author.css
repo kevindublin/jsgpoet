@@ -12,6 +12,15 @@ a:focus {
   outline-offset: -2px;
 }
 
+ul > li > a {
+	color: black;
+}
+
+ul > li > a:hover, a:focus {
+	color: black;
+	text-decoration: underline;
+}
+
 .site-text {
 	text-align: justify;
 	font-size: 1.5em;
