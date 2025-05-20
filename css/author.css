@@ -12,3 +12,41 @@
 	background: #F9CED5;
 
 }
+
+ /* Basic focus indicator for all interactive elements - enhance as needed for design */
+        *:focus {
+            outline: 2px dashed #007bff; /* Example focus style, adjust to match site palette */
+            outline-offset: 2px;
+        }
+        /* Ensure sufficient text contrast for justified text if kept - this is a general note, specific color checks needed */
+        .site-text-justified { /* Changed class name to be more specific if you want to control justification styling deliberately */
+            text-align: justify; /* WCAG 1.4.8 (AAA): Justified text can be a barrier for some users with cognitive disabilities. Consider left-aligning. */
+        }
+        /* For the back-to-top button specifically, ensure focus is as visible as hover */
+        #back2Top:focus {
+            background-color: #337AB7; /* Match hover state */
+            color: #FFF;  /* Match hover state */
+            outline: 2px dashed #000; /* Example: ensure it stands out */
+        }
+
+        /* Accessible hiding class */
+        .sr-only-focusable:active,
+        .sr-only-focusable:focus {
+            position: static;
+            width: auto;
+            height: auto;
+            margin: 0;
+            overflow: visible;
+            clip: auto;
+        }
+        .sr-only {
+            border: 0;
+            clip: rect(0,0,0,0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+

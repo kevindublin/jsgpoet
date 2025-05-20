@@ -4,49 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jessie Scrimager Galloway: Poet - Author Site</title> <meta name="description" content="Official author website for Jessie Scrimager Galloway, featuring her biography, book 'not my daughter', media appearances, and contact information."> <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <title>Jessie Scrimager Galloway: Poet - Author Site</title> <meta name="description" content="Official author website for Jessie Scrimager Galloway, featuring her poetry book 'not my daughter', media, press kit, and a contact form."> <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/sticky-menu.css" rel="stylesheet" />
     <link href="css/author.css" rel="stylesheet" />
-
-    <style>
-        /* Basic focus indicator for all interactive elements - enhance as needed for design */
-        *:focus {
-            outline: 2px dashed #007bff; /* Example focus style, adjust to match site palette */
-            outline-offset: 2px;
-        }
-        /* Ensure sufficient text contrast for justified text if kept - this is a general note, specific color checks needed */
-        .site-text-justified { /* Changed class name to be more specific if you want to control justification styling deliberately */
-            text-align: justify; /* WCAG 1.4.8 (AAA): Justified text can be a barrier for some users with cognitive disabilities. Consider left-aligning. */
-        }
-        /* For the back-to-top button specifically, ensure focus is as visible as hover */
-        #back2Top:focus {
-            background-color: #337AB7; /* Match hover state */
-            color: #FFF;  /* Match hover state */
-            outline: 2px dashed #000; /* Example: ensure it stands out */
-        }
-
-        /* Accessible hiding class */
-        .sr-only-focusable:active,
-        .sr-only-focusable:focus {
-            position: static;
-            width: auto;
-            height: auto;
-            margin: 0;
-            overflow: visible;
-            clip: auto;
-        }
-        .sr-only {
-            border: 0;
-            clip: rect(0,0,0,0);
-            height: 1px;
-            margin: -1px;
-            overflow: hidden;
-            padding: 0;
-            position: absolute;
-            width: 1px;
-        }
-
-    </style>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
@@ -96,7 +56,7 @@
                         <p class="site-text-justified"> <strong>Jessie Scrimager Galloway</strong> is an adopted, queer poet with mommy issues. She is a graduate of Pacific University’s MFA program and author of the chapbook <em>Liminal: A Life of Cleavage</em>, Lost Horse Press. She loves her wife’s fried chicken and enjoys riveting conversations with her best editor: Snacks, a wily, polydactyl, orange cat. <a href="https://etchedpress.com/shop/not-my-daughter-jessie-galloway.html" target="_blank" rel="noopener noreferrer"><em>not my daughter</em> (Etched Press, 2024) <span class="sr-only">(opens in a new tab)</span></a> is her first full-length collection.
                         </p>
                         <p>&nbsp;</p>
-                        <a href="./sample-poems.pdf" class="press-button" target="_blank" rel="noopener noreferrer" role="button">Press Kit <span class="sr-only">(opens PDF in a new tab)</span></a> </div>
+                        <a href="./sample-poems.pdf" class="press-button" target="_blank" rel="noopener noreferrer" role="button" aria-label="Link to sample poems and press kit">Press Kit <span class="sr-only">(opens PDF in a new tab)</span></a> </div>
                 </div>
             </div>
         </section>
@@ -219,9 +179,13 @@
                 	<div class="col-sm-4">
                 	</div>
                 	<div class="col-sm-4">
-                	<em>funded in part by</em>
-                		<center><img src="./images/oac_logo.jpg" style="max-width: 250px; height: auto;"/></center>
-                		<br/>
+                		<em>funded in part by</em>
+						<div style="text-align: center; margin-bottom: 20px;"> <a href="https://oac.ohio.gov" target="_blank" rel="noopener noreferrer" aria-label="Ohio Arts Council (opens in a new tab)">
+								<img src="./images/oac_logo.jpg" 
+									 alt="Ohio Arts Council logo" 
+									 style="max-width: 250px; height: auto; border: 0;" />
+							</a>
+						</div>
                 	</div>
 		            <div class="col-sm-4">
 		            </div>

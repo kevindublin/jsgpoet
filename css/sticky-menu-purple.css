@@ -1,0 +1,231 @@
+body {
+    height: 100%;
+    background: #FFFFFF; 
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-variant: small-caps;
+}
+
+.container{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+
+}
+
+.press-button {
+  background-color: #582399; /* Black */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-variant: small-caps;
+  float: right;
+}
+
+a:hover .press-button {
+	padding: 15px 52px;
+}
+
+.styled-header {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: #582399;
+    color: white;
+    text-align: center;
+}
+
+a:hover .styled-header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-image: linear-gradient(pink, pink), 
+        linear-gradient(#582399, #582399);
+    background-clip: content-box, padding-box;
+    text-align: center;
+    color: #582399;
+    text-decoration: none;
+}
+
+form { 
+	max-width:800px; margin:50px auto; 
+	}
+	
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #FFF;
+    color: #337AB7;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #337AB7;
+    color: #FFF;
+}
+.about-section {
+	display:flex;
+	flex-basis: content;
+    height: 100%;
+    padding-top: 150px;
+    text-align: justify;
+    background: #ffffff;
+    background-image: url(./images/book-background.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.book-section {
+	display:flex;
+	flex-basis: content;
+    height: 100%;
+    padding-top: 50px;
+    text-align: left;
+    background: #FFFFFF;
+    padding-bottom: 150px;
+}
+.media-section {
+	display:flex;
+	flex-basis: content;
+    height: 100%;
+    padding-top: 50px;
+    text-align: left;
+    background: #ffffff;
+    padding-bottom: 100px;
+}
+.contact-section {
+	display:flex;
+	flex-basis: content;
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.footer-above{
+    display:flex;
+    flex-basis: content;
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #ffffff;
+    margin: 0;
+}
+
+.footer-below{
+    display:flex;
+    flex-basis: content;
+    height: 100%;
+    text-align: center;
+    background: #ffffff;
+    padding-bottom: 100px;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.navbar-default {
+    background-color: #f9ced5;
+    border-color: #FFFFFF;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+.row {
+	overflow: auto;
+}
+
+.form-control {
+  color: #582399;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  border:2px solid #f9ced5;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.form-control:focus { 
+	border:2px solid #f9ced5;
+	}
+
+.two-column {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style: none;
+}
+
+
+[type="submit"] {
+  width: 100%;
+  background:#582399;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+[type="submit"]:hover { 
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color:#ffffff; 
+	}
+	
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+}
