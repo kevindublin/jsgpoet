@@ -107,7 +107,6 @@ form {
     padding-top: 150px;
     text-align: justify;
     background: #ffffff;
-    background-image: url(./images/book-background.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -154,6 +153,7 @@ form {
     height: 100%;
     text-align: center;
     background: #ffffff;
+    background-image: url(../images/book-background.jpg);
     padding-bottom: 100px;
     margin: 0;
 }
